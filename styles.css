@@ -1,0 +1,11 @@
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left:50px;
+}
+div {
+    width: 400px;
+    margin: auto;
+    border: 50 px solid purple;
+}
