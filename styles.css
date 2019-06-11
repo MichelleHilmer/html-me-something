@@ -1,11 +1,21 @@
+body{
+    background-image: cross-fade()
+}
+
 p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left:50px;
+    margin:350;
+    background-color: lightblue;
 }
 div {
-    width: 400px;
-    margin: auto;
-    border: 50 px solid purple;
+    padding: 50px;
 }
+article { 
+    display: block;
+}
+.rotateimg180 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
